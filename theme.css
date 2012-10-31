@@ -1,0 +1,1119 @@
+
+
+html {
+    height: 100%;
+}
+
+BODY {
+    background-image: url("images/background/bg1.png");
+    background-color: #FFD11D;
+    padding: 0px;
+    margin: 0px;
+    min-width: 800px;
+    width: 100%;
+    color: #FFD11D;
+}
+
+H1, H3, INPUT.rateButtonSelected {
+    color: #FFFFFF;
+}
+
+A, INPUT.rateButton {
+    color: #FFFFFF;
+    border: medium none;
+    text-decoration: none;
+}
+
+A:hover {
+    color: #C2C2C2;
+    text-decoration: none;
+    border-bottom: medium none;
+}
+
+FIELDSET {
+    border: 0px none;
+    background: url("images/bg_content.png") repeat scroll 0px 0px transparent;
+}
+
+INPUT[type="submit"], INPUT[type="reset"] {
+    cursor: pointer;
+    background: -moz-linear-gradient(center top , #555555, #2C2C2C) repeat scroll 0% 0% transparent;
+    margin: 0px 5px;
+    padding-bottom: 4px;
+    min-width: 150px;
+    width: auto;
+    height: 25px;
+    text-align: center;
+    color: #C5C5C5;
+    border-radius: 8px 8px 8px 8px;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5), 0px -1px 0px rgba(255, 255, 255, 0.4);
+}
+
+INPUT[type="submit"]:hover, INPUT[type="reset"]:hover {
+    color: #222222;
+    background: -moz-linear-gradient(center top , #777777, #333333) repeat scroll 0% 0% transparent;
+}
+
+INPUT[type="submit"]:active, INPUT[type="reset"]:active {
+    color: #000000;
+    background: -moz-linear-gradient(center top , #555555, #2C2C2C) repeat scroll 0% 0% transparent;
+    box-shadow: 1px 1px 10px #000000 inset, 0px 1px 0px rgba(255, 255, 255, 0.4);
+}
+
+INPUT[type="text"], INPUT[type="password"], INPUT[type="file"] {
+    margin: 0px 5px;
+    padding: 0px;
+    background: none repeat scroll 0px 0px #FFFFFF;
+    min-width: 150px;
+    width: auto;
+    height: 22px;
+    border: 0px none;
+    color: #000000 ! important;
+    border-radius: 3px 3px 3px 3px;
+}
+
+INPUT[type="text"]:hover, INPUT[type="password"]:hover, INPUT[type="file"]:hover, SELECT:hover {
+    background: -moz-linear-gradient(right center , #FFFFFF 20%, #E5E5E5 80%) repeat scroll 0% 0% transparent;
+}
+
+SELECT.categoryList:hover {
+    background: none repeat scroll 0px 0px #FFFFFF;
+}
+
+SELECT {
+    margin: 0px 5px;
+    padding: 0px;
+    background: none repeat scroll 0px 0px #FFFFFF;
+    min-width: 150px;
+    width: auto;
+    height: 22px;
+    border: 0px none;
+    color: #000000 ! important;
+    border-radius: 3px 0px 0px 3px;
+}
+
+LEGEND {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 110%;
+    margin-top: 25px;
+}
+
+.properties LI {
+    list-style: none outside none;
+}
+
+/*======================================================Header======================================================*/
+#header_bgDef {
+    padding-top: 30px;
+    background-image: url("images/background/bg4.png");
+    background-color: #FFD11D;
+    height: 140px;
+    width: inherit;
+}
+
+#Header {
+    background-image: url("images/bg_header.png");
+    background-repeat: repeat-x;
+    z-index: 10;
+    display: block;
+}
+
+#header-content {
+    position: relative;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#theHeader {
+    display: block;
+    position: absolute;
+    right: 20px;
+}
+
+#logo {
+    background: url("images/piwigo_org_logo.png") no-repeat scroll 0% 0% transparent;
+    width: 500px;
+    display: block;
+    position: absolute;
+    height: 100px;
+    margin-top: 20px;
+}
+
+#headertransi {
+    background: none repeat scroll 0px 0px #FFD11D;
+    height: 12px;
+}
+
+#headertransiH {
+    background-image: url("images/htransi.png");
+    background-repeat: repeat-x;
+    height: 10px;
+}
+
+#headertransiB {
+    height: 2px;
+    background-image: url("images/btransi.png");
+    background-repeat: repeat;
+}
+
+/*======================================================Content======================================================*/
+#the_page {
+    z-index: 100;
+    width: 100%;
+    height: 0px;
+}
+
+#bg_th_left {
+    background-image: url("images/theme/sprite_theme_left.png");
+    background-position: 0px 0px;
+    width: 400px;
+    height: 400px;
+    float: left;
+    position: absolute;
+    z-index: -999;
+}
+
+.content .titrePage {
+    position: relative;
+}
+
+.categoryActions {
+    float: none;
+    display: block;
+    position: absolute;
+    right: 10px;
+}
+
+#page_content {
+    z-index: 100000;
+    background: url("images/border_rigth.png") repeat-y scroll 0px 0px transparent;
+    min-width: 680px;
+    width: 80%;
+    height: auto;
+    min-height: 530px;
+    margin: 2px auto 30px;
+}
+
+#page_content1 {
+    background: url("images/bg_content.png") repeat scroll 0px 0px transparent;
+    margin-left: 2px;
+}
+
+#page_content2 {
+    background: url("images/border_rigth.png") repeat-y scroll right center transparent;
+    padding-top: 10px;
+    min-height: 500px;
+    padding-bottom: 20px;
+}
+
+.content {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+    height: auto;
+    padding-top: 50px;
+}
+
+H2 {
+    color: #FFFFFF;
+    background-image: url("images/border_dt.png");
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    height: 25px;
+    margin: 0px 5px 5px;
+    padding: 5px 0px 0px;
+}
+
+#fullTagCloud {
+    background: url("images/bg_content.png") repeat scroll 0px 0px transparent;
+    min-height: 500px;
+}
+
+.switchBox {
+    background-color: gray;
+    z-index: 1000;
+    margin-top: 30px;
+}
+
+#sortOrderBox {
+    width: 250px;
+}
+
+/*======================================================icon======================================================*/
+.pwg-icon {
+    background-image: url("../default/s26/outline_ffffff.png");
+}
+
+A:hover .pwg-icon {
+    background-image: url("../default/s26/outline_808080.png");
+}
+
+.pwg-icon-filter {
+    background-image: url("../default/s26/outline_005e89.png");
+}
+
+/*======================================================Thumbnail page======================================================*/
+.thumbnailCategory {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.illustration {
+    position: relative;
+}
+
+.content ul.thumbnails .wrap1 {
+    display: inline-block;
+    margin: 20px 20px 5px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.content UL.thumbnails .wrap2 {
+    height: 140px;
+}
+
+.content UL.thumbnails .wrap2 A {
+    margin-top: 10px;
+}
+
+.thumbnail *:before {
+    content: "";
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.thumbnail .description, .thumbnailCategory DIV.description {
+    height: 80px;
+    padding-top: 0px;
+    background: none repeat scroll 0px 0px #000000;
+    overflow: hidden;
+    color: #FFFFFF;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    opacity: 0;
+    -moz-transition: bottom 1s ease 0s, width 1s ease 0s, opacity 1s ease 0s;
+    width: 100%;
+}
+
+.thumbnail:hover .description, .thumbnailCategory:hover DIV.description {
+    background: none repeat scroll 0px 0px #000000;
+    opacity: 0.65;
+    -moz-transition: bottom 1s ease 0s, width 1s ease 0s, opacity 2s ease 0s;
+}
+
+.thumbnails SPAN.thumbLegend {
+    height: 80px;
+}
+
+/*======================================================Footer======================================================*/
+#footer {
+    background-repeat: no-repeat;
+    background-position: right center;
+    width: 100%;
+    bottom: 0px;
+    height: 400px;
+    position: fixed;
+    top: 100%;
+    margin: -400px auto 0px;
+    z-index: -999;
+}
+
+#bg_th_right {
+    background-image: url("images/theme/sprite_theme_right.png");
+    background-position: 0px 0px;
+    width: 400px;
+    height: 400px;
+    float: right;
+}
+
+#copyright {
+    position: relative;
+    background-color: transparent;
+    text-align: left;
+    padding-left: 30px;
+    margin-bottom: 0px;
+    float: left;
+    height: 20px;
+    padding-top: 380px;
+}
+
+/*======================================================Menu======================================================*/
+#menubar {
+    width: 24em;
+    margin-left: 0px;
+}
+
+#menubar UL {
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 0px 0px 0px 2px;
+}
+
+#menubar a, #menubar dt, div#menubar dl:hover dd, div#menubar ul li:hover ul, div#menubar ul ul li:hover ul, div#menubar ul ul ul li:hover ul, div#menubar ul ul ul ul li:hover ul, div#menubar ul ul ul ul ul li:hover ul {
+    display: block;
+}
+
+input:focus {
+    outline-style: none;
+}
+
+#menubar p {
+    color: #757575;
+}
+
+#menu {
+    color: #FFFFFF;
+    height: 30px;
+    line-height: 30px;
+    padding: 0px;
+    text-decoration: none;
+    text-shadow: 0px 0px 2px #000000;
+    text-transform: uppercase;
+}
+
+#nav_wrapper {
+    position: absolute;
+    height: 30px;
+    min-width: 800px;
+    width: 100%;
+    margin: auto;
+    background: url("images/menu/back_nav.png") repeat-x scroll 0px 0px transparent;
+    z-index: 1000;
+    top: 0px;
+    left: 0px;
+}
+
+span#menu_start {
+    background: url("images/menu/li_border.png") no-repeat scroll right top transparent;
+    float: left;
+    display: block;
+    height: 30px;
+    width: 85px;
+}
+
+span#menu_start a {
+    background: url("images/menu/home_nav.png") no-repeat scroll left top transparent;
+    width: 52px;
+    height: 30px;
+    text-indent: -9999px;
+    padding: 0px;
+    margin: 0px 20px 0px 25px;
+    display: block;
+    line-height: 46px;
+}
+
+span#menu_start a:hover {
+    background-position: left -30px;
+}
+
+span#menu_start a:active {
+    background-position: left -60px;
+}
+
+ul#topnav {
+    background: url("images/menu/li_border.png") no-repeat scroll right top transparent;
+    margin: 0px;
+    padding: 0px 2px 0px 0px;
+    list-style: none outside none;
+    height: 30px;
+    position: relative;
+    z-index: 999;
+    display: inline-block;
+}
+
+ul#topnav .liSub {
+    float: left;
+    position: relative;
+    background: url("images/menu/li_border.png") no-repeat scroll right top transparent;
+    padding-right: 2px;
+}
+
+ul#topnav span dt {
+    padding: 0px 16px;
+}
+
+ul#topnav span dt:hover {
+    background: url("images/menu/back_nav_hover.png") repeat-x scroll 0px 0px transparent;
+}
+
+#menuTagCloud a {
+    color: #000000;
+    text-decoration: none;
+    text-shadow: none;
+    z-index: 200;
+}
+
+.sub p {
+    color: #4C4C4C;
+    font-size: 13px;
+    text-shadow: none;
+    text-transform: none;
+}
+
+ul#topnav li .sub, ul#topnav li #loger {
+    position: absolute;
+    top: 30px;
+    background: none repeat scroll 0px 0px #FFFFFF;
+    padding: 5px 8px 10px;
+    float: left;
+    max-width: 100em;
+    min-width: 200px;
+    display: none;
+    max-height: 500px;
+    overflow: auto;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0px 0px 5px #5A5A5A;
+    z-index: 0;
+}
+
+.level2, .level3, .level4, .level5 {
+    border: medium none ! important;
+}
+
+ul#topnav li .sub {
+    z-index: 100;
+}
+
+#quickconnect {
+    width: 225px;
+}
+
+.mcol {
+    width: 100%;
+}
+
+.menubarFilter {
+    margin: 0px;
+}
+
+#menu_cat_act {
+    border-bottom: 1px solid #CBCBCB;
+    margin-bottom: 5px;
+    height: 30px;
+}
+
+#filter {
+    width: 26px;
+    height: 26px;
+    background: none repeat scroll 0px 0px transparent;
+    padding-left: 2px;
+}
+
+#nbImg {
+    height: 30px;
+    float: right;
+    line-height: 10px;
+}
+
+ul#topnav li .sub ul, ul#topnav #loger ul {
+    list-style: none outside none;
+    margin: 0px 5px 0px 8px;
+    padding: 0px;
+}
+
+ul#topnav .sub ul li, ul#topnav #loger ul li, ul#topnav .sub #menuTagCloud div {
+    width: 95%;
+    color: #757575;
+    background: none repeat scroll 0px 0px transparent;
+    font-size: 10px;
+    margin-bottom: 2px;
+    border: 1px solid #CBCBCB;
+    border-radius: 10px 10px 10px 10px;
+}
+
+ul#topnav .sub ul li.selected {
+    text-decoration: none;
+    border: 1px solid #CBCBCB;
+    border-radius: 10px 10px 10px 10px;
+}
+
+ul#topnav .sub ul li.selected a, ul#topnav .sub ul li.selected a:hover {
+    color: #4C4C4C;
+    text-decoration: none;
+    border: medium none;
+}
+
+ul#topnav .sub ul li.selected a {
+    background: url("images/menu/navlist_arrow_hover.png") no-repeat scroll 0px 5px transparent;
+}
+
+ul#topnav .sub ul .level1 li, ul#topnav .sub ul .level1 li .selected {
+    border: medium none;
+    background-image: none;
+}
+
+ul#topnav .sub ul li a, ul#topnav #loger ul li a {
+    float: none;
+    text-indent: 0px;
+    height: auto;
+    background: url("images/menu/navlist_arrow.png") no-repeat scroll 0px 5px transparent;
+    margin: 0px 8px;
+    display: block;
+    text-decoration: none;
+    color: #757575;
+    font-size: 1.1em;
+    text-shadow: none;
+    text-transform: none;
+    line-height: 17px;
+    padding: 0px 0px 0px 12px;
+}
+
+ul#topnav .sub ul li a:hover, ul#topnav .sub #menuTagCloud div a:hover {
+    color: #4C4C4C;
+    background: url("images/menu/navlist_arrow_hover.png") no-repeat scroll 0px 5px transparent;
+    text-decoration: underline;
+}
+
+span.dd_wrapper, span.cl_wrapper, span.cc_wrapper, span dt {
+    float: left;
+    padding: 0px 16px 6px;
+}
+
+li.liSub:hover span.dd_wrapper, li.liSub:hover span.cl_wrapper, .activate {
+    z-index: 100;
+    background: url("images/menu/back_nav_hover.png") repeat-x scroll 0px 0px transparent;
+    color: #C2C2C2;
+    padding: 0px 16px 6px;
+    text-shadow: none;
+}
+
+li.liSub:hover span.cc_wrapper {
+    color: #8F8F8F;
+}
+
+.close {
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    background: url("images/menu/close.png") no-repeat scroll 0px 0px transparent;
+    float: right;
+}
+
+.close:hover {
+    background: url("images/menu/close.png") no-repeat scroll 0px -16px transparent;
+}
+
+.sub {
+    max-width: 600px;
+}
+
+#search {
+    position: absolute;
+    width: 240px;
+    right: 0px;
+    margin-top: 4px;
+    height: 22px;
+    display: inline-block;
+}
+
+#quicksearch {
+    float: left;
+    width: 240px;
+}
+
+#quicksearch input[type="text"] {
+    float: left;
+    background: url("images/menu/search.png") no-repeat scroll left top transparent;
+    width: 172px;
+    height: 22px;
+    padding: 0px 0px 0px 4px;
+    margin: 0px 1px 0px 0px;
+    border: 0px none;
+    font-size: 13px;
+    color: #CCCCCC ! important;
+    min-width: 0px;
+}
+
+#quicksearch input[type="text"]:hover {
+    background-position: left bottom;
+}
+
+#quicksearch input[type="submit"] {
+    float: left;
+    padding: 0px;
+    border: 0px none;
+    height: 22px;
+    width: 23px;
+    background: url("images/menu/search.png") no-repeat scroll right top transparent;
+    font-size: 13px;
+    cursor: pointer;
+    min-width: 0px;
+    margin-left: 2px;
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: none;
+}
+
+#quicksearch input[type="submit"]:hover {
+    background-position: right bottom;
+}
+
+#loger {
+    line-height: 25px;
+    width: 220px;
+    position: absolute;
+    top: 30px;
+    background: none repeat scroll 0px 0px #FFFFFF;
+    padding: 10px;
+    float: left;
+    max-width: 100em;
+    min-width: 200px;
+    display: none;
+    z-index: 0;
+}
+
+#loger p {
+    color: #000000;
+    margin-bottom: 20px;
+    text-shadow: none;
+}
+
+#log {
+    color: #000000;
+    text-transform: none;
+    text-shadow: none;
+    margin-bottom: 20px;
+}
+
+ul#topnav li .sub ul#loged {
+    width: 200px;
+}
+
+#log INPUT[type="password"] {
+    border: 0px none;
+    height: 22px;
+    background: url("images/menu/password.png") no-repeat scroll left top transparent;
+    width: 175px;
+}
+
+#log INPUT[type="password"]:hover {
+    background-position: left bottom;
+}
+
+#log INPUT[type="text"] {
+    border: 0px none;
+    height: 22px;
+    background: url("images/menu/user.png") no-repeat scroll left top transparent;
+    width: 175px;
+}
+
+#log INPUT[type="text"]:hover {
+    background-position: left bottom;
+}
+
+#go INPUT[type="submit"] {
+    color: transparent;
+    border: 0px none;
+    height: 32px;
+    width: 64px;
+    min-width: inherit;
+    background: url("images/menu/go.png") no-repeat scroll left top transparent;
+    margin-left: 65px;
+    margin-top: 20px;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+#go INPUT[type="submit"]:hover {
+    background-position: left bottom;
+}
+
+#topnav dt a:hover {
+    color: #C2C2C2;
+}
+
+/*=========================================picture======================================================*/
+#thePicturePage #page_content {
+    display: table;
+}
+
+#thePicturePage #page_content1 {
+    padding-left: 20px;
+}
+
+#thePicturePage #page_content2 {
+    padding-right: 20px;
+}
+
+#theImage > IMG {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#imageHeaderBar {
+    margin: 0px 0px 20px;
+    padding: 50px 0px 0px;
+}
+
+#groupbuttons {
+    margin: auto;
+    width: 200px;
+}
+
+#slideshow #groupbuttons {
+    width: 30px;
+}
+
+#imgContainer {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+#imgContent {
+    position: relative;
+    display: table;
+    margin: auto;
+}
+
+.navThumbs, #imgHoverNav {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+
+#imgHoverNav a {
+    outline: medium none;
+}
+
+#imgPrevHov, #imgNextHov, #thumbPrevHov, #thumbNextHov {
+    width: 48%;
+    height: 100%;
+    display: block;
+    border: medium none ! important;
+    opacity: 0;
+    position: relative;
+}
+
+#imgPrevHov {
+    left: 0px;
+    float: left;
+    margin-left: 3px;
+    background: url("images/picture/imgPrevHover.png") no-repeat scroll left 45% transparent;
+}
+
+#imgNextHov {
+    right: 0px;
+    float: right;
+    margin-right: 3px;
+    background: url("images/picture/imgNextHover.png") no-repeat scroll right 45% transparent;
+}
+
+#thumbPrevHov {
+    left: 0px;
+    float: left;
+    background: none repeat scroll 0px 0px transparent;
+}
+
+#thumbNextHov {
+    right: 0px;
+    float: right;
+    background: none repeat scroll 0px 0px transparent;
+}
+
+#imgPrevHov:hover, #imgNextHov:hover, #thumbPrevHov:hover, #thumbNextHov:hover {
+    opacity: 1;
+}
+
+.linkPrev {
+    position: absolute;
+    left: -80px;
+    top: 40%;
+}
+
+.linkNext {
+    position: absolute;
+    right: -80px;
+    top: 40%;
+}
+
+.imageNumber {
+    text-align: right;
+    margin-right: 20px;
+}
+
+/*=========================================comment on picture page======================================================*/
+#comments {
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 880px;
+    margin: auto;
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+#pictcomm {
+    margin-bottom: 50px;
+    width: 99%;
+    height: 190px;
+    background: none repeat scroll 0px 0px #7F7E7E;
+    float: left;
+}
+
+.commentElement {
+    background: url("images/bg_content.png") repeat scroll 0px 0px transparent;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.filter {
+    margin-bottom: 50px;
+}
+
+#pictcomm ul {
+    list-style-type: none;
+}
+
+.even, .odd {
+    color: #FFFFFF;
+}
+
+.odd {
+    padding-top: 10px;
+}
+
+.thumbnailCategories1 {
+    padding: 0px;
+}
+
+.thumbnailCategories1 LI {
+    width: 100%;
+    float: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.author, .date {
+    color: #C5C5C5;
+}
+
+#adcomm {
+    margin-bottom: 30px;
+}
+
+.addcom {
+    float: none ! important;
+    margin-right: 0px ! important;
+}
+
+#addComment FIELDSET {
+    margin: 0px;
+    padding: 0px;
+    border: medium none;
+    background: none repeat scroll 0px 0px transparent;
+}
+
+#contentid {
+    border: medium none;
+    background: none repeat scroll 0px 0px #7F7E7E;
+    margin: 0px auto 20px;
+}
+
+#comcontent {
+    width: 750px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+#scrollbar1 {
+    width: 97%;
+    margin: 5px 0px 10px;
+}
+
+#scrollbar1 .viewport {
+    height: 170px;
+    overflow: hidden;
+    position: relative;
+}
+
+#scrollbar1 .overview {
+    list-style: none outside none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 0px;
+    margin: 0px;
+    width: 96%;
+}
+
+#scrollbar1 .scrollbar {
+    background: url("images/picture/bg-scrollbar-track-y1.png") no-repeat scroll 0px 0px transparent;
+    position: relative;
+    float: right;
+    width: 6px;
+    margin-top: 40px;
+}
+
+#scrollbar1 .track {
+    background: url("images/picture/bg-scrollbar-end-y1.png") no-repeat scroll 0px 100% transparent;
+    height: 100%;
+    width: 3px;
+    position: relative;
+    padding: 0px 1px;
+}
+
+#scrollbar1 .thumb {
+    background: url("images/picture/bg-scrollbar-thumb-y1.png") no-repeat scroll 50% 50% transparent;
+    height: 0px;
+    width: 15px;
+    cursor: pointer;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    left: -6px;
+}
+
+#scrollbar1 .thumb .end {
+    overflow: hidden;
+    height: 5px;
+    width: 3px;
+}
+
+#scrollbar1 .disable {
+    display: none;
+}
+
+/*======================================================panel on picture page======================================================*/
+.panel {
+    position: fixed;
+    top: 115px;
+    left: 0px;
+    display: none;
+    border: 1px solid #111111;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    min-width: 330px;
+    height: auto;
+    padding: 10px 30px 30px 20px;
+    z-index: 100;
+    background: none repeat scroll 0px 0px rgba(0, 0, 0, 0.7);
+}
+
+.panel p {
+    margin: 0px 0px 15px;
+    padding: 0px;
+    color: #CCCCCC;
+}
+
+a.trigger {
+    position: fixed;
+    text-decoration: none;
+    top: 130px;
+    left: 0px;
+    font-size: 14px;
+    letter-spacing: -1px;
+    font-family: verdana,helvetica,arial,sans-serif;
+    color: #FFFFFF;
+    padding: 10px 30px 10px 5px;
+    font-weight: 700;
+    background: url("images/picture/plus.png") no-repeat scroll 85% 55% #333333;
+    border: 1px solid #444444;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: block;
+    z-index: 100000;
+}
+
+a.trigger:hover {
+    background-color: #222222;
+}
+
+a.active.trigger {
+    background: url("images/picture/minus.png") no-repeat scroll 85% 55% #222222;
+}
+
+.columns {
+    clear: both;
+    width: 330px;
+    padding: 0px 0px 20px;
+    line-height: 22px;
+}
+
+.colleft {
+    float: left;
+    width: 130px;
+    line-height: 22px;
+}
+
+.colright {
+    float: right;
+    width: 130px;
+    line-height: 22px;
+}
+
+.panel ul li {
+    list-style-type: none;
+}
+
+.panel ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.panel .value {
+    padding-right: 5px;
+}
+
+.rateButtonStarFull {
+    background: url("icon/rating-stars.gif") no-repeat scroll -16px center transparent;
+    width: 16px;
+}
+
+.rateButtonStarEmpty {
+    background: url("icon/rating-stars.gif") no-repeat scroll 0px center transparent;
+    width: 16px;
+}
+
+#rating {
+    margin: 5px 0px;
+}
+
+#imageToolBar {
+    margin: 50px 0px 20px;
+    text-align: left;
+}
+
+#imageToolBar li {
+    list-style-type: none;
+}
+
+TABLE#standard, TABLE#Metadata {
+    font-size: 80%;
+}
+
+.infoTable .label, .infoTable2 .label {
+    text-align: left;
+}
+
+.infoTable .value a, .infoTable .value, .infoTable2 .value a, .infoTable2 .value {
+    color: silver;
+}
+
+TABLE#Metadata th {
+    font-size: 120%;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.panel .switchBox {
+    top: 60px;
+}
+
+/*======================================================plugin======================================================*/
+.contact-form-content {
+    background: url("images/bg_content.png") repeat scroll 0px 0px transparent;
+}
