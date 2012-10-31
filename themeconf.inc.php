@@ -1,9 +1,9 @@
 <?php
 /*
 Theme Name: PwgCarbon_dft
-Version: 1.0
+Version: 1.0.1
 Description: theme PwgCarbon_dft pour Piwigo.
-Theme URI:
+Theme URI:http://fr.piwigo.org/ext/extension_view.php?eid=639
 Author: Miklfe
 Author URI: 
 */
